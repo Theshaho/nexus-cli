@@ -37,3 +37,53 @@ Get your ID from beta.nexus.xyz (it can be found in the left corner of the dashb
 2. Generate Random ID
 
 Skip the ID prompt a random ID will be generated
+
+
+# If you encounter any error use these steps
+
+```bash
+sudo apt update && sudo apt upgrade
+sudo apt install build-essential pkg-config libssl-dev git-all
+
+sudo apt update
+sudo apt install rustup
+rustup install nightly
+rustup default nightly
+
+sudo apt update
+sudo apt install -y protobuf-compiler
+protoc --version
+```
+
+```bash
+screen -S nexus
+```
+
+```bash
+curl https://cli.nexus.xyz/ | sh
+```
+
+stop prover with ctrl + c and then change Prover Id
+
+```bash
+cd .nexus
+```
+
+```bash
+nano prover-id
+```
+
+Change with your prover-id provided on beta.nexus.xyz
+
+then Rerun it again
+
+```bash
+curl https://cli.nexus.xyz/ | sh
+```
+then detach with Ctl + A + D
+
+If you encounter this error "warning: nexus-network@0.4.0: Failed to run protoc: No such file or directory (os error 2)" Run this command:
+
+```bash
+sudo apt install -y protobuf-compiler
+```
