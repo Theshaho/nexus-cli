@@ -23,6 +23,7 @@ You'll be prompted to accept the Terms of Use
 
 for Configuring your Prover ID you have two options 
 
+![Screenshot 2024-12-09 223715](https://github.com/user-attachments/assets/e1221bba-87c8-4eb4-af61-2a9a245d03fc)
 
 
 1.Link to Web Account (Recommended)
