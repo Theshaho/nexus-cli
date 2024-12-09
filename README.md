@@ -1,1 +1,32 @@
 # nexus-cli
+
+contribute to Nexus through cli
+
+## System Requirements
+
+```bash
+sudo apt update && sudo apt upgrade
+sudo apt install build-essential pkg-config libssl-dev git-all
+```
+
+then install Nexus cli
+
+```bash
+curl https://cli.nexus.xyz/ | sh
+```
+
+## Initial Setup
+
+Run the CLI for the first time
+
+You'll be prompted to accept the Terms of Use
+
+for Configuring your Prover ID you have two options 
+
+1.Link to Web Account (Recommended)
+
+Get your ID from beta.nexus.xyz (it can be found in the left corner of the dashboard )left and then enter it when prompted your CLI contributions will sync with your web account.
+
+2.Generate Random ID
+
+Skip the ID prompt a random ID will be generated
