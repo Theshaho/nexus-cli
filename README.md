@@ -73,6 +73,13 @@ cd .nexus
 nano prover-id
 ```
 
+to find your prover id head to https://beta.nexus.xyz/ and then press f12 ( inspect element ) and then Application => Storage => local storage => https://beta.nexus.xyz
+
+then copy the value of flutter.proverId 
+
+![Screenshot 2024-12-10 194955](https://github.com/user-attachments/assets/6b203336-c19e-4af4-83ed-e45c02691160)
+
+
 Change with your prover-id provided on beta.nexus.xyz
 
 then Rerun it again
